@@ -47,7 +47,3 @@ img{
     display: flex;
     justify-content: center;
 }
-audio{
-    position: fixed;
-    /* opacity: 0; */
-}
