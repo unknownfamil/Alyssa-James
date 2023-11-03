@@ -4,29 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <video controls  autoplay loop  id="myVideo">
-        <source src="Alyssa & James _ She will always hate me.mp4" type="video/mp4">
+    <video loop muted autoplay id="myVideo">
+        <source src="./src/video/Alyssa & James _ She will always hate me.mp4" type="video/mp4">
     </video>
+    <button onclick="unmuteVideo()">Voice🔊</button>
     <h1>Alyssa & James</h1>
     <div class="container">
-            <img src="./tumblr_8d20c922e6fc61b1ae89cd994afb5c0a_22bb3521_640.jpg" alt="">
-            <img src="./the-end-of-the-fing-world-james-alyssa.jpg" alt="">
-            <img src="./screen-shot-2019-11-05-at-10-24-19-am-1572967484.png" alt="">
-            <img class="img1"
-                src="./68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6d7a765f4f4d5f416641307270513d3d2d3833383837393132352e313566333661333430356233353062353536343338.jpg"
-                alt="">
-            <img class="img2" src="./e26ea53534c066fe652c19cebabc3473.jpg" alt="">
-            <img class="img3" src="./james-and-alyssa-paint-by-number.jpg" alt="">
-            <img src="./c362f5985db99e7f32ed6da835a91925.jpg" alt="">
-            <img src="./end-of-the-fucking-world-1876e5d.jpg" alt="">
-            <img src="./EOTFW-Website.jpg" alt="">
+            <img class="active"  src="./src/img/img1.jpg" alt="">
+            <img src="./src/img/img2.jpg" alt="">
+            <img src="./src/img/img3.jpg" alt="">
+            <img src="./src/img/img5.jpg" alt="">
+            <img src="./src/img/img6.jpg" alt="">
+            <img src="./src/img/img7.jpg" alt="">
+            <img src="./src/img/img8.png" alt="">
+            <img src="./src/img/img9.jpg" alt="">
+            <img src="./src/img/img10.jpg" alt="">
     </div>
     <div class="block-text"><p class="last-text">The End of the F***ing World / 2017</p></div>
+
+    <script src="./src/js/main.js"></script>
 </body>
 
 </html>
