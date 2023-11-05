@@ -1,14 +1,27 @@
+// let video = document.getElementById('myVideo');
+// let btn = document.querySelector('button');
+
+// btn.addEventListener('click', ()=>{
+//     if(video.muted){
+//         video.muted = false;
+//         video.play();
+//     } else{
+//         video.play();
+//     }
+// });
+
 let video = document.getElementById('myVideo');
 let btn = document.querySelector('button');
 
-btn.addEventListener('click', ()=>{
-    if(video.muted){
+btn.addEventListener('click', () => {
+    if (video.muted) {
         video.muted = false;
         video.play();
-    } else{
-        video.play();
+    } else {
+        video.muted = true;
     }
 });
+
 
 window.addEventListener('scroll', reveal);
  function reveal(){
